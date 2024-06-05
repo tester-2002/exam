@@ -17,6 +17,9 @@
         .top,
         .bottom {
             flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         iframe {
@@ -24,12 +27,16 @@
             height: 100%;
             border: none;
         }
+
+        .window {
+            width: 50%;
+        }
     </style>
 </head>
 
 <body>
     <div class="top">
-        <iframe
+        <iframe class="window"
             src="https://docs.google.com/document/d/e/2PACX-1vRmfRyK-4Y6m5K9bYgtk5OCJ6nLWx0XuUMnUPLnlSUlfQKoJFzVAjPNchSfWF1xPBwKlnog8A9vk0HF/pub?embedded=true"></iframe>
     </div>
     <div class="bottom">
